@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Where to Eat?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Container for content -->
+  <div class="container">
+    <h1>Where <em>to eat?</em></h1>
+    <button id="start-game" class="btn">This or That</button>
+  </div>
+
+  <script>
+    // When "This or That" is clicked, navigate to the second page
+    document.getElementById('start-game').addEventListener('click', function() {
+      window.location.href = 'game.html'; // Redirect to the second page
+    });
+  </script>
+</body>
+</html>
